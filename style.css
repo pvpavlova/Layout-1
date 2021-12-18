@@ -1,0 +1,526 @@
+@font-face {
+    font-family: StratosSkyeng;
+    src: url(./font/stratosskyengweb-regular.woff2) format("woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+}
+
+.block1 {
+    background-color: #271a58;
+}
+
+.skypro-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    width: 1200px;
+}
+
+.logo {
+    align-self: center;
+    height: 30px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    padding: 0 30px;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: StratosSkyeng, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 100%;
+}
+
+.menu1 {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.menu-checkbox1 {
+    display: none;
+}
+
+.sticker {
+    float: right;
+}
+
+.link {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.section-link {
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 28px;
+    line-height: 90%;
+    color: white;
+    background-color: #ff8071;
+}
+
+.section-link:hover {
+    color: #271a58;
+    background-color: #ffb2a9;
+}
+
+.section-title {
+    margin: 0 0 46px;
+    padding: 0;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 90%;
+    letter-spacing: -0.7px;
+    color: #271a58;
+}
+
+.block-title {
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: -0.3px;
+}
+
+.sub-title {
+    margin: 0 0 10px;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 115%;
+    letter-spacing: -0.05px;
+}
+
+.sub-title-opacity {
+    opacity: 0.5;
+}
+
+.link1 {
+    padding: 10px;
+    border-radius: 32px;
+    color: white;
+}
+
+.link0 {
+    background-color: #ad61ff;
+    color: white;
+    width: 120px;
+    height: 25px;
+    top: 20px;
+    text-align: center;
+    border-radius: 32px;
+    padding: 8px 16px;
+}
+
+.login {
+    display: inline-block;
+    align-self: center;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #868d92;
+    background: #f9f9f9;
+}
+
+.professions {
+    background-color: #271a58;
+}
+
+.professions-content {
+    padding: 20px 0 40px;
+}
+
+.professions-header {
+    position: relative;
+}
+
+.professions-header>.sub-title {
+    margin-bottom: 20px;
+    max-width: 600px;
+    color: white;
+}
+
+.professions-title {
+    margin: 0;
+    padding: 0;
+    max-width: 80%;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 91.5%;
+    letter-spacing: -1.2px;
+    color: #f4f4ff;
+}
+
+.career-cards-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0;
+    padding: 0;
+    list-style: none;
+    width: 90%;
+}
+
+.union {
+    float: right;
+}
+
+.career-card {
+    width: 30%;
+    height: 480px;
+    background-color: white;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.career-card-1 {
+    background-image: url(./images/card1.png);
+}
+
+.career-card-2 {
+    background-image: url(./images/card3.png);
+}
+
+.career-card-3 {
+    background-image: url(./images/card5.png);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.card-topic {
+    align-self: flex-start;
+    margin: 0;
+    padding: 10px;
+    border-radius: 80px;
+    background: #ffffff;
+}
+
+.card-topic_color1 {
+    color: #ff8071;
+}
+
+.card-topic_color2 {
+    color: #ad61ff;
+}
+
+.card-topic_color3 {
+    color: #565eef;
+}
+
+.isa {
+    border-radius: 0 0 32px 32px;
+    background-color: #ad61ff;
+}
+
+.isa-content {
+    position: relative;
+    padding: 60px 0;
+
+    color: white;
+}
+
+.isa-title {
+    margin-bottom: 25px;
+    line-height: 115%;
+}
+
+.isa-title-colored {
+    display: inline-block;
+    color: #271a58;
+}
+
+.isa-description {
+    width: 60%;
+    margin-bottom: 46px;
+
+    font-size: 26px;
+    line-height: 125%;
+}
+
+.webinars_growth {
+    padding: 120px 0 48px;
+}
+
+.webinars {
+    margin-bottom: 40px;
+    border-radius: 30px;
+}
+
+.webinar1 {
+    position: relative;
+    display: flex;
+    padding: 40px;
+    background-color: #d8d7ff;
+}
+
+.webinars-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-right: 60px;
+}
+
+.webinars-date {
+    width: 200px;
+}
+
+.webinars-date-number {
+    font-size: 48px;
+}
+
+.webinars-date-day {
+    display: inline-block;
+    line-height: 120%;
+}
+
+.webinars-profession {
+    margin: 0;
+    padding: 0;
+
+    line-height: 115%;
+    color: #565eef;
+}
+
+.webinars-title {
+    max-width: 800px;
+    margin-bottom: 30px;
+}
+
+.webinars-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.webinars-details {
+    width: 50%;
+}
+
+.webinars-time {
+    display: block;
+    margin: 0 0 10px;
+}
+
+.webinars-speakers {
+    margin: 0;
+    line-height: 135%;
+}
+
+.webinars-link {
+    align-self: flex-end;
+    min-width: 300px;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: -0.7px;
+    color: #636aed;
+    background-color: white;
+}
+
+
+.webinars-border-circle {
+    position: absolute;
+    left: 230px;
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+    background-color: white;
+}
+
+.webinars-border-circle_top {
+    top: -20px;
+}
+
+.webinars-border-circle_bottom {
+    bottom: -20px;
+}
+
+.webinar2 {
+    padding: 35px;
+    margin-bottom: 46px;
+    background-color: #565eef;
+    background-image: url(./images/card10.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    color: white;
+}
+
+
+
+.webinars-links {
+    display: flex;
+    align-items: center;
+}
+
+.webinars-telegram-link {
+    display: flex;
+    align-items: center;
+
+    margin-left: 30px;
+}
+
+
+
+.webinars-telegram-text {
+    margin: 0;
+
+    font-size: 28px;
+    letter-spacing: -0.7px;
+    color: #271a58;
+}
+
+.skills {
+    padding: 48px 0 96px;
+}
+
+.skills-content {
+    position: relative;
+}
+
+.skills-title {
+    width: 80%;
+}
+
+.skills-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 40px;
+
+    margin-bottom: 46px;
+    padding: 0;
+
+    list-style: none;
+}
+
+.skills-card {
+    min-height: 310px;
+
+    background-color: #f1f1f1;
+    background-position: top 50% right 0;
+    background-size: cover;
+}
+
+.skills-card_bg1 {
+    background-image: url(./images/card7.png);
+}
+
+.skills-card_bg2 {
+    background-image: url(./images/card8.png);
+}
+
+.skills-card_bg3 {
+    background-image: url(./images/card9.png);
+}
+
+.skills-card-title {
+    width: 50%;
+}
+
+.skills-card-topic {
+    padding: 10px;
+    background-color: white;
+}
+
+.description {
+    background-color: #e6e6f6;
+}
+
+.description-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 60px;
+}
+
+.description-block {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 90px;
+}
+
+.description-info {
+    flex-grow: 1;
+}
+
+.description-title {
+    margin-bottom: 30px;
+    color: #ad61ff;
+
+}
+
+.description-text {
+    color: #271a58;
+}
+
+
+.description-block:nth-of-type(2n) .description-img {
+    margin-top: 0px;
+
+    order: 1;
+}
+
+.description-block:nth-of-type(2n) .description-info {
+    margin-top: 80px;
+
+    order: 2;
+}
+
+.description-block:nth-of-type(2n+1) .description-img {
+    order: 1;
+}
+
+.description-block:nth-of-type(2n1+1) .description-info {
+    margin-bottom: 80px;
+
+    order: 1;
+}
+
+.hand {
+    float: right;
+}
+
+.description-block2 {
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 80px;
+}
+
+.description-img2 {
+
+    margin: 50px auto auto auto;
+    margin-top: 0px;
+}
+
+.description-title2 {
+    color: #ad61ff;
+    line-height: 44px;
+    font-weight: 400;
+}
+
+.description-text2 {
+    margin-top: 20px;
+}
